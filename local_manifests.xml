@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="baka"
+          fetch="https://github.com/baka-hokage" />
+
+  <remote name="reignz"
+          fetch="https://github.com/painkiller3" />  
+
+  <remote name="kdrag0n"
+          fetch="https://github.com/kdrag0n" />
+
+  <project path="device/xiaomi/beryllium" name="device_xiaomi_beryllium" remote="baka" revision="cherish" /> 
+
+  <project path="device/xiaomi/sdm845-common" name="device_xiaomi_sdm845-common" remote="baka" revision="tm" />
+
+  <project path="vendor/xiaomi" name="vendor_xiaomi" remote="baka" revision="tm" />
+
+  <project path="kernel/xiaomi/sdm845" name="kernel_xiaomi_sdm845" remote="reignz" revision="thirteen" />
+
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
+
+</manifest>
