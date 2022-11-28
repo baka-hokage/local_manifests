@@ -7,4 +7,5 @@
  <project path="vendor/xiaomi" name="baka-hokage/vendor_xiaomi" remote="github" revision="tm" />
  <project path="kernel/xiaomi/sdm845" name="baka-hokage/kernel_xiaomi_sdm845" remote="github" revision="tm" />
  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" />
+ <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="baka-hokage/android_prebuilts_clang_host_linux-x86_clang-r450784d" remote="gitlab" revision="master" />
 </manifest>
