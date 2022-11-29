@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote name="baka"
+          fetch="https://github.com/baka-hokage" />
+
+  <remote name="kdrag0n"
+          fetch="https://github.com/kdrag0n" />
+
+  <remote name="gitlab"
+          fetch="https://gitlab.com/baka-hokage" />
+
  <!-- Trees -->
- <project path="device/xiaomi/beryllium" name="baka-hokage/device_xiaomi_beryllium" remote="github" revision="cherish" />
- <project path="device/xiaomi/sdm845-common" name="baka-hokage/device_xiaomi_sdm845-common" remote="github" revision="tm" />
- <project path="vendor/xiaomi" name="baka-hokage/vendor_xiaomi" remote="github" revision="tm" />
- <project path="kernel/xiaomi/sdm845" name="baka-hokage/kernel_xiaomi_sdm845" remote="github" revision="tm" />
- <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" />
- <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="baka-hokage/android_prebuilts_clang_host_linux-x86_clang-r450784d" remote="gitlab" revision="master" />
+ <project path="device/xiaomi/beryllium" name="device_xiaomi_beryllium" remote="baka" revision="cherish" />
+ <project path="device/xiaomi/sdm845-common" name="device_xiaomi_sdm845-common" remote="baka" revision="tm" />
+ <project path="vendor/xiaomi" name="vendor_xiaomi" remote="baka" revision="tm" />
+ <project path="kernel/xiaomi/sdm845" name="kernel_xiaomi_sdm845" remote="baka" revision="tm" />
+ <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
+ <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="android_prebuilts_clang_host_linux-x86_clang-r450784d" remote="gitlab" revision="master" />
 </manifest>
