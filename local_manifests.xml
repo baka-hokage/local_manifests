@@ -10,10 +10,14 @@
   <remote name="reignz"
           fetch="https://github.com/PainKiller3" />
 
+  <remote name="lineage"
+          fetch="https://github.com/LineageOS" />
+  
  <!-- Trees -->
  <project path="device/xiaomi/beryllium" name="device_xiaomi_beryllium" remote="baka" revision="q" />
  <project path="device/xiaomi/sdm845-common" name="device_xiaomi_sdm845-common" remote="baka" revision="q" />
  <project path="vendor/xiaomi" name="vendor_xiaomi" remote="baka" revision="q" />
  <project path="kernel/xiaomi/sdm845" name="kernel_xiaomi_sdm845" remote="reignz" revision="thirteen" />
  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
+ <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage" revision="lineage-17.1" />
 </manifest>
