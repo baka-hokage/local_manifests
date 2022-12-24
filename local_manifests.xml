@@ -7,7 +7,7 @@
   <remote name="kdrag0n"
           fetch="https://github.com/kdrag0n" />
 
-  <remote name="lineage"
+  <remote name="loda"
           fetch="https://github.com/LineageOS" />
   
  <!-- Trees -->
@@ -16,5 +16,5 @@
  <project path="vendor/xiaomi" name="vendor_xiaomi" remote="baka" revision="q" />
  <project path="kernel/xiaomi/sdm845" name="kernel_xiaomi_sdm845" remote="baka" revision="thirteen" />
  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
- <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage" revision="lineage-17.1" />
+ <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="loda" revision="lineage-17.1" />
 </manifest>
